@@ -24,9 +24,11 @@ echo " "
 echo " "
 echo " "
 echo " "
-printf " Enter the targeted path (ex /home/usr_name/Desktop/file2delete), or Enter a . to delete all files in the current directory and sub-directory ==>   "
+echo " Enter the targeted path (ex /home/usr_name/Desktop/file2delete), or Enter a . to delete all files in the current directory and sub-directory "
+echo " "
+printf "   Enter the file(s) path ==========>   "
 read target
-sudo find "$target" -type f -exec shred {} \; && find "$target" -type f -exec rm -rf {} \;
+sudo find "$target" -type f -exec shred {} \; && find "$target" -type f -exec rm {} \;
 clear
 echo " "
 echo " "
