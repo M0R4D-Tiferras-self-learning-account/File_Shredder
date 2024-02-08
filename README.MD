@@ -2,16 +2,15 @@
 <br></br>
 <h1>## Introduction</h1>
 
-<h3>This is a small file shredder tool designed to securely delete files from a specified directory using the `shred` and `rm` commands in Linux. It is intended to provide a simple and effective way to permanently delete sensitive files beyond recovery.</h3>
+This is a small file shredder tool designed to securely delete files from a specified directory using the `shred` and `rm` commands in Linux. It is intended to provide a simple and effective way to permanently delete sensitive files beyond recovery.
 
 <h1>## Features</h1>
-<h3>
+
 - Securely delete files from a specified directory.
 - Utilizes the `shred` command to overwrite file contents before deletion, making recovery virtually impossible.
 - Removes all traces of the deleted files from the system.
-</h3>
+
 
 <h1>## Warning</h1>
-<h3>
+
 **Use with caution:** This tool permanently deletes files and cannot be undone. Ensure that you specify the correct target directory before executing the command.
-</h3>
