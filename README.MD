@@ -1,5 +1,8 @@
 <h1># File Shredder</h1>
-<br></br>
+<p> <br> 
+   <img align="center" src=https://muvemm.com/wp-content/uploads/2023/03/iStock-184355920.jpg" alt="Shredding files">
+   <br>
+</p>
 <h1>## Introduction</h1>
 
 This is a small file shredder tool designed to securely delete files from a specified directory using the `shred` and `rm` commands in Linux. It is intended to provide a simple and effective way to permanently delete sensitive files beyond recovery.
